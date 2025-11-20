@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Ruby Bingham — ePortfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1 class="site-title">Ruby Bingham</h1>
+      <p class="site-sub">Designer & developer — ePortfolio</p>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="about" class="card">
+      <h2>About</h2>
+      <p>Hi — I build clean, accessible websites and interactive projects. This is a simple portfolio page demonstrating a few sections including a video area where you can showcase a demo or talk.</p>
+    </section>
+
+    <section id="projects" class="card">
+      <h2>Projects</h2>
+      <ul>
+        <li><strong>Project One</strong> — Short description and link.</li>
+        <li><strong>Project Two</strong> — Short description and link.</li>
+      </ul>
+    </section>
+
+    <section id="video" class="card">
+      <h2>Video</h2>
+      <p>Use either a local video file placed at <code>assets/video.mp4</code> or an embedded YouTube video below it.</p>
+
+      <!-- Local video: add your video file at assets/video.mp4 -->
+      <div class="video-wrap">
+        <video id="localVideo" controls width="720" poster="assets/poster.jpg">
+          <source src="assets/video.mp4" type="video/mp4">
+          Your browser does not support the video tag. You can still view the demo via the embedded YouTube video below.
+        </video>
+      </div>
+
+      <div class="embed">
+        <h3>Or watch on YouTube</h3>
+        <!-- Replace the src below with your YouTube embed URL -->
+        <iframe width="560" height="315" src="https://youtu.be/HlEA_6CvWas" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+      </div>
+
+    </section>
+
+    <section id="contact" class="card">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:you@example.com">you@example.com</a></p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">© "Your Name" — Built with HTML & CSS</div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
