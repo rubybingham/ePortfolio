@@ -29,13 +29,45 @@
 
     </section>
 
-    <section id="projects" class="card">
-      <h2>Projects</h2>
-      <ul>
-        <li><strong>Project One</strong> — Short description</li>
-        <li><strong>Project Two</strong> — Short description</li>
-        <li><strong>Project Three</strong> — Short description</li>
-      </ul>
+    <section id="artifacts" class="card">
+      <h2>Artifacts</h2>
+      
+      <div class="artifact">
+        <h3>Contact & Task Manager (Java → Python)</h3>
+        <p><strong>Description:</strong> A 532-line comprehensive management system for contacts, appointments, and tasks. Originally written in Java, this version is a complete Python translation with full CRUD operations and input validation.</p>
+        
+        <p><strong>Key Features:</strong></p>
+        <ul class="feature-list">
+          <li>Contact Management — Create, view, update, and delete contacts with email/phone validation</li>
+          <li>Appointment Management — Schedule and manage appointments with date/time validation</li>
+          <li>Task Management — Organize tasks with due dates and descriptions</li>
+          <li>Input Validation — Email regex, 10-digit phone format, datetime format checking</li>
+          <li>Interactive CLI Menu — User-friendly command-line interface with submenus</li>
+        </ul>
+        
+        <details>
+          <summary>View Full Code (532 lines)</summary>
+          <pre><code class="language-python">"""
+Contact & Task Manager Application
+A comprehensive management system for contacts, appointments, and tasks.
+Provides CRUD operations with validation for all data types.
+"""
+
+import re
+from datetime import datetime
+
+# Global data stores
+contacts = {}
+appointments = {}
+tasks = {}
+
+# [Full code available in artifacts/artifact_one.py]
+# This is a large program; the complete source is linked below.</code></pre>
+        </details>
+        
+        <p><a href="artifacts/artifact_one.py" class="btn-view-code">View Complete Source Code →</a></p>
+      </div>
+
     </section>
 
     <section id="contact" class="card">
