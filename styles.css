@@ -21,7 +21,9 @@ html,body{height:100%;margin:0;font-family:Segoe UI, Roboto, system-ui, -apple-s
 .artifact code{font-family:'Courier New', monospace;font-size:13px;line-height:1.5}
 .feature-list{padding-left:20px;margin:8px 0}
 .feature-list li{margin:6px 0;line-height:1.5}
-.btn-view-code{display:inline-block;margin-top:12px;padding:8px 16px;background:var(--accent);color:#fff;text-decoration:none;border-radius:4px;font-weight:600;transition:all 0.2s}
+.btn-view-code{display:inline-block;margin-top:12px;padding:8px 16px;background:var(--accent);color:#fff;text-decoration:none;border-radius:4px;font-weight:600;transition:all 0.2s;margin-right:10px}
 .btn-view-code:hover{background:#0a58ca;transform:translateY(-1px);box-shadow:0 2px 6px rgba(11,110,253,0.3)}
+.btn-doc{display:inline-block;margin-top:12px;padding:8px 16px;background:#6c757d;color:#fff;text-decoration:none;border-radius:4px;font-weight:600;transition:all 0.2s}
+.btn-doc:hover{background:#5a6268;transform:translateY(-1px);box-shadow:0 2px 6px rgba(108,117,125,0.2)}
 .site-footer{padding:16px 0;text-align:center;color:#666;font-size:14px}
 @media(min-width:900px){.embed iframe{height:360px}.site-title{font-size:32px}}
