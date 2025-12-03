@@ -1,0 +1,14 @@
+Dashboard Artifact Placeholder
+
+This is a placeholder for the Dashboard artifact. Replace this file or add the following files to the `artifacts/` folder:
+
+- `dashboard.zip` — full project export (if applicable)
+- `dashboard.docx` — self-review / artifact document (Word)
+- `dashboard-screenshot.png` — optional screenshot to display on the portfolio
+
+Recommended steps:
+1. Add your dashboard project ZIP as `artifacts/dashboard.zip` (or a folder with the source).
+2. Add your artifact document as `artifacts/dashboard.docx`.
+3. Add a screenshot `artifacts/dashboard-screenshot.png` to use as a visual preview.
+
+Once those files are in `artifacts/`, I can update the portfolio to show the screenshot and link the files directly.
