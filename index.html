@@ -68,6 +68,37 @@ tasks = {}
         <p><a href="artifacts/artifact_one.py" class="btn-view-code">View Complete Source Code →</a></p>
       </div>
 
+      <div class="artifact">
+        <h3>Inventory Mobile App (Java → Kotlin)</h3>
+        <p><strong>Description:</strong> A mobile inventory application redeveloped from Java to Kotlin. The full Android Studio project is available as a ZIP you can download below.</p>
+
+        <p><strong>Key Features:</strong></p>
+        <ul class="feature-list">
+          <li>Inventory CRUD — Add, edit, remove items and categories</li>
+          <li>Sync-ready architecture — Prepared for local persistence and optional sync</li>
+          <li>Kotlin idiomatic refactor — Converted Java logic to Kotlin with modern patterns</li>
+          <li>Android UI — Activities/Fragments and simple list/detail views</li>
+        </ul>
+
+        <details>
+          <summary>Preview Kotlin snippet</summary>
+          <pre><code class="language-kotlin">package com.example.inventory
+
+import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
+
+class MainActivity : AppCompatActivity() {
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        // setContentView(R.layout.activity_main)
+    }
+}
+</code></pre>
+        </details>
+
+        <p><a href="artifacts/inventory-app.zip" class="btn-view-code">Download Android project ZIP →</a></p>
+      </div>
+
     </section>
 
     <section id="contact" class="card">
